@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //deneme commit
         ListView listView=findViewById(R.id.listView);
         try {
             MapsActivity.database=this.openOrCreateDatabase("Places",MODE_PRIVATE,null);
